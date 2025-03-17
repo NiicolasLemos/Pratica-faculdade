@@ -1,6 +1,25 @@
-// Atividade 2
-
+//Atividade 2
 import java.util.*;
 public class Main {
 public static void main(String[] args) {
   Scanner scanner = new Scanner(System.in);
+
+  System.out.println("Digite o sálario de um funcionário: ");
+  double salario = scanner.nextDouble();
+  System.out.println("Digite a quantia do financiamento: ");
+  double financiamento = scanner.nextDouble();
+
+  if (financiamento <= 5 * salario) {
+    System.out.println ("Financiamento concedido.");
+      }else{
+    System.out.println("Financiamento negado.");
+  
+}
+}
+}
+
+
+
+
+
+
